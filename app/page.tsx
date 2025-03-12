@@ -26,9 +26,9 @@ export default function Home() {
           <div className="w-full lg:w-1/2 p-8 lg:p-11  md:p-11 border border-gray-800 lg:rounded-full md:rounded-full  dark:border-slate-200">
                <h2 className="text-2xl lg:text-xl xl:text-4xl font-bold text-gray-900 dark:text-slate-400 p-3 mt-3 px-0 lg:px-10 md:px-10">I Build for the Web.</h2>
                <p className="text-sm xl:text-md lg:text-sm text-wrap leading-7 mt-3 px-0 lg:px-10 md:px-10">I bring ideas to life on the web, crafting websites and web 
-                    apps that are clean, efficient, and user-friendly. It's not just about getting things
-                    to work—it's about learning, improving, and solving real problems along the way. 
-                    Whether it's creating smooth user experiences, making things run faster, or simplifying 
+                    apps that are clean, efficient, and user-friendly. It is not just about getting things
+                    to work—it is about learning, improving, and solving real problems along the way. 
+                    Whether it is creating smooth user experiences, making things run faster, or simplifying 
                     complex challenges, I enjoy every part of the process.</p>
           </div>
      </div>
@@ -40,7 +40,7 @@ export default function Home() {
               <h2 className="text-5xl lg:text-8xl border-l-8 px-5  border-l-gray-900 dark:border-l-slate-200">About Me.</h2>
               <p className="py-10 text-center leading-loose">Hey there! I'm Chidera, a passionate web developer who loves bringing ideas to life through clean, efficient, and user-friendly code.
                I specialize in JavaScript, React, and modern web technologies, building fast, 
-               dynamic applications that feel great to use. For me, it's not just about building—I love learning as I go, solving real problems, 
+               dynamic applications that feel great to use. I love learning as I go, solving real problems, 
                and truly enjoying the process. I'm always exploring new technologies, refining my skills, and pushing myself to write better, smarter code.
                When I'm not deep in a project, I'm brainstorming fresh ideas for my next build. And when I need to unwind from all the coding? 
                You'll probably find me binge-watching a good K-drama or getting lost in a novel. 

@@ -38,3 +38,15 @@ body {
       transform: translateX(-100%);
   }
 }
+
+@media(max-width:380px){
+  .about_div{
+    padding-top: 3em;
+  }
+}
+
+@media(max-width:350px){
+  #about h2, #technologies h2, .project h2{
+    font-size: 2.5rem;
+  }
+}

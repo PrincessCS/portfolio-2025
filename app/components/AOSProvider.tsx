@@ -9,7 +9,7 @@ export default function AOSProvider({ children }: { children: React.ReactNode })
     console.log("Initializing AOS...");
     AOS.init({
       duration: 1000,
-      once: false, // Set to false so animations trigger every time they enter the viewport
+      once: false,
     });
   }, []);
 

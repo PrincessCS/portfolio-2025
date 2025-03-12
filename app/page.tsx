@@ -38,12 +38,12 @@ export default function Home() {
      <div data-aos="fade-up" className="about_div w-full flex flex-col justify-between items-center mt-16 lg:mt-0 md:mt-0">
           <div>
               <h2 className="text-5xl lg:text-8xl border-l-8 px-5  border-l-gray-900 dark:border-l-slate-200">About Me.</h2>
-              <p className="py-10 text-center leading-loose">Hey there! I'm Chidera, a passionate web developer who loves bringing ideas to life through clean, efficient, and user-friendly code.
+              <p className="py-10 text-center leading-loose">Hey there! I&apos;m Chidera, a passionate web developer who loves bringing ideas to life through clean, efficient, and user-friendly code.
                I specialize in JavaScript, React, and modern web technologies, building fast, 
                dynamic applications that feel great to use. I love learning as I go, solving real problems, 
-               and truly enjoying the process. I'm always exploring new technologies, refining my skills, and pushing myself to write better, smarter code.
-               When I'm not deep in a project, I'm brainstorming fresh ideas for my next build. And when I need to unwind from all the coding? 
-               You'll probably find me binge-watching a good K-drama or getting lost in a novel. 
+               and truly enjoying the process. I&apos;m always exploring new technologies, refining my skills, and pushing myself to write better, smarter code.
+               When I&apos;m not deep in a project, I&apos;m brainstorming fresh ideas for my next build. And when I need to unwind from all the coding? 
+               You&apos;ll probably find me binge-watching a good K-drama or getting lost in a novel. 
               </p>
           </div>
      </div>
@@ -83,7 +83,7 @@ export default function Home() {
 
     <section id="projects" className={`${poppins.className}  bg-slate-300 text-gray-950 dark:bg-gray-900 dark:text-slate-300 py-10 px-5 lg:p-10 md:p-10`}>
      <h2 className="project text-5xl lg:text-8xl px-5 border-l-8 border-l-gray-900 dark:border-l-slate-200">Projects.</h2>
-     <p className="mt-10">Here are some of the projects I've built, showcasing my skills in JavaScript, React, Next.js
+     <p className="mt-10">Here are some of the projects I&apos;ve built, showcasing my skills in JavaScript, React, Next.js
         and modern web development:</p>
 
      <div className="grid grid-cols-1 gap-y-10 mt-10">

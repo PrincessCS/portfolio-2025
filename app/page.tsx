@@ -96,7 +96,7 @@ export default function Home() {
                    <h3 className="py-5"><span className="text-green-700 font-bold">Features:</span> Browse restaurant menus and filter items, Add/remove items from the cart with real-time updates,
                    Responsive design for mobile and desktop, State management with Redux for a seamless experience.
                    </h3> 
-                   <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://restaurant-nine-ashy.vercel.app/">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/restaurant">GitHub</a></button>
+                   <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://restaurant-nine-ashy.vercel.app/" target="_blank">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/restaurant" target="_blank">GitHub</a></button>
                </div>
                <div>
                    <Image src="/foodie.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }} alt="foodie" />
@@ -118,7 +118,7 @@ export default function Home() {
                   <h3 className="py-5"><span className="text-green-700 font-bold">Features:</span>Google Translate integration for multi-language support, 
                     Smooth scroll animations for enhanced user experience, Responsive and modern UI design
                   </h3> 
-                  <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://cyborg-lovat.vercel.app/">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/Cyborg">GitHub</a> </button>
+                  <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://cyborg-lovat.vercel.app/" target="_blank">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/Cyborg" target="_blank">GitHub</a> </button>
                </div>
           </div>
 
@@ -135,7 +135,7 @@ export default function Home() {
                   <h3 className="py-5"><span className="text-green-700 font-bold">Features:</span>Fetches product data from a local db.json file, 
                   Automatic carousel for featured products, Category-based filtering for easy browsing,  Responsive and user-friendly UI
                   </h3> 
-                  <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://velvety-virid.vercel.app/">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/velvety">GitHub</a></button>
+                  <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://velvety-virid.vercel.app/" target="_blank">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/velvety" target="_blank">GitHub</a></button>
                </div>
                <div>
                   <Image src="/velvety.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }} alt="velvety" />
@@ -175,7 +175,7 @@ export default function Home() {
                   <h3 className="py-5"><span className="text-green-700 font-bold">Features:</span>Fetches real-time weather data for any location, 
                   Dynamic background images sourced from Pexels based on weather conditions (rain, sun, snow, etc.),  Responsive and user-friendly interface
                   </h3> 
-                  <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://sprightly-cactus-0fdf86.netlify.app/">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/weather">GitHub</a></button>
+                  <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://sprightly-cactus-0fdf86.netlify.app/" target="_blank">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/weather" target="_blank">GitHub</a></button>
                </div>
           </div>
 
@@ -191,7 +191,7 @@ export default function Home() {
                   <h3 className="py-5"><span className="text-green-700 font-bold">Features:</span> Dashboard UI for cryptocurrency tracking, 
                   Chart.js graphs for visualizing market trends (static data), Modern and responsive design implementation
                   </h3> 
-                  <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://dashboard-sigma-nine-21.vercel.app/" className="">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/dashboard">GitHub</a></button>
+                  <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://dashboard-sigma-nine-21.vercel.app/" target="_blank">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/dashboard" target="_blank">GitHub</a></button>
                </div>
                <div>
                   <Image src="/gleek.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }} alt="gleek" />
@@ -215,6 +215,11 @@ export default function Home() {
                   <p><a href="https://cyborg-lovat.vercel.app/">Demo</a> | <a href="https://github.com/PrincessCS/Cyborg">GitHub</a></p> 
                </div>
           </div>*/}
+     </div>
+     <div className="flex justify-center items-center mt-10">
+          <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}>
+               <a href="https://github.com/PrincessCS" target="_blank">View GitHub</a>
+          </button>
      </div>
     </section>
 

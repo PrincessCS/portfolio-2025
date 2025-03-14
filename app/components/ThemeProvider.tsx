@@ -1,4 +1,4 @@
-"use client";  // 👈 Must be a Client Component
+"use client"; 
 
 import { createContext, useContext, useEffect, useState } from "react";
 
@@ -21,7 +21,7 @@ export default function ThemeProvider({ children }: { children: React.ReactNode 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");
     localStorage.setItem("theme", theme);
-  }, [theme]); // 👈 Added dependency array to update theme properly
+  }, [theme]);
 
   const toggleTheme = () => {
     setTheme((prev) => (prev === "light" ? "dark" : "light"));

@@ -96,7 +96,7 @@ export default function Home() {
                    <h3 className="py-5"><span className="text-green-700 font-bold">Features:</span> Browse restaurant menus and filter items, Add/remove items from the cart with real-time updates,
                    Responsive design for mobile and desktop, State management with Redux for a seamless experience.
                    </h3> 
-                   <a href="https://restaurant-nine-ashy.vercel.app/">Demo</a> | <a href="https://github.com/PrincessCS/restaurant">GitHub</a>
+                   <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://restaurant-nine-ashy.vercel.app/">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/restaurant">GitHub</a></button>
                </div>
                <div>
                    <Image src="/foodie.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }} alt="foodie" />
@@ -118,7 +118,7 @@ export default function Home() {
                   <h3 className="py-5"><span className="text-green-700 font-bold">Features:</span>Google Translate integration for multi-language support, 
                     Smooth scroll animations for enhanced user experience, Responsive and modern UI design
                   </h3> 
-                  <a href="https://cyborg-lovat.vercel.app/">Demo</a> | <a href="https://github.com/PrincessCS/Cyborg">GitHub</a> 
+                  <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://cyborg-lovat.vercel.app/">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/Cyborg">GitHub</a> </button>
                </div>
           </div>
 
@@ -135,7 +135,7 @@ export default function Home() {
                   <h3 className="py-5"><span className="text-green-700 font-bold">Features:</span>Fetches product data from a local db.json file, 
                   Automatic carousel for featured products, Category-based filtering for easy browsing,  Responsive and user-friendly UI
                   </h3> 
-                  <a href="https://velvety-virid.vercel.app/">Demo</a> | <a href="https://github.com/PrincessCS/velvety">GitHub</a>
+                  <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://velvety-virid.vercel.app/">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/velvety">GitHub</a></button>
                </div>
                <div>
                   <Image src="/velvety.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }} alt="velvety" />
@@ -175,7 +175,7 @@ export default function Home() {
                   <h3 className="py-5"><span className="text-green-700 font-bold">Features:</span>Fetches real-time weather data for any location, 
                   Dynamic background images sourced from Pexels based on weather conditions (rain, sun, snow, etc.),  Responsive and user-friendly interface
                   </h3> 
-                  <a href="https://sprightly-cactus-0fdf86.netlify.app/">Demo</a> | <a href="https://github.com/PrincessCS/weather">GitHub</a>
+                  <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://sprightly-cactus-0fdf86.netlify.app/">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/weather">GitHub</a></button>
                </div>
           </div>
 
@@ -191,7 +191,7 @@ export default function Home() {
                   <h3 className="py-5"><span className="text-green-700 font-bold">Features:</span> Dashboard UI for cryptocurrency tracking, 
                   Chart.js graphs for visualizing market trends (static data), Modern and responsive design implementation
                   </h3> 
-                  <a href="https://dashboard-sigma-nine-21.vercel.app/" className="">Demo</a> | <a href="https://github.com/PrincessCS/dashboard">GitHub</a>
+                  <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://dashboard-sigma-nine-21.vercel.app/" className="">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/dashboard">GitHub</a></button>
                </div>
                <div>
                   <Image src="/gleek.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }} alt="gleek" />
@@ -221,9 +221,9 @@ export default function Home() {
     <section id="contact">
       <div data-aos="fade-up" className="w-full fixed left-0 bottom-0 flex justify-between">
           <div className="flex flex-col gap-4 justify-between px-3">
-          <Image src="/github.png" width={30} height={30} style={{ width: "auto", height: "auto" }} alt="github" />
-          <Image src="/linkedin.png" width={30} height={30} style={{ width: "auto", height: "auto" }} alt="linkedin" />
-          <Image src="/x.png" width={30} height={30} style={{ width: "auto", height: "auto" }} alt="twitter" />
+          <a href="https://github.com/PrincessCS" target="_blank"><Image src="/github.png" width={30} height={30} style={{ width: "auto", height: "auto" }} alt="github" /></a>
+          <a href="https://linkedin.com/in/princessodo" target="_blank"><Image src="/linkedin.png" width={30} height={30} style={{ width: "auto", height: "auto" }} alt="linkedin" /></a>
+          <a href="https://x.com/__psteph" target="_blank"><Image src="/x.png" width={30} height={30} style={{ width: "auto", height: "auto" }} alt="twitter" /></a>
           </div>
           <div className="flex  relative h-[100px] w-[40px] items-center justify-center">
                <a href="mailto:princeschidera@gmail.com" className="rotate-90 bg-gray-900 text-slate-300 p-2 text-sm">princeschidera@gmail.com</a>

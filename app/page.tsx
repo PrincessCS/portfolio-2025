@@ -99,13 +99,13 @@ export default function Home() {
                    <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://restaurant-nine-ashy.vercel.app/" target="_blank">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/restaurant" target="_blank">GitHub</a></button>
                </div>
                <div>
-                   <Image src="/foodie.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }} alt="foodie" />
+                   <Image src="/foodie.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }}  className="transition-all duration-300 transform hover:scale-105 cursor-pointer"  alt="foodie" />
                </div>
           </div>
 
           <div data-aos="fade-up" className="flex flex-col gap-10 lg:grid lg:grid-cols-2 justify-between items-center gap-x-10">
                <div>
-                  <Image src="/cyborg.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }} alt="cyborg" />
+                  <Image src="/cyborg.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }}  className="transition-all duration-300 transform hover:scale-105 cursor-pointer" alt="cyborg" />
                </div>  
                <div>
                   <h2 className="text-3xl text-green-700 font-extrabold">Cyborg QFS</h2>
@@ -138,7 +138,7 @@ export default function Home() {
                   <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://velvety-virid.vercel.app/" target="_blank">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/velvety" target="_blank">GitHub</a></button>
                </div>
                <div>
-                  <Image src="/velvety.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }} alt="velvety" />
+                  <Image src="/velvety.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }}  className="transition-all duration-300 transform hover:scale-105 cursor-pointer"  alt="velvety" />
                </div>
           </div>
 
@@ -162,7 +162,7 @@ export default function Home() {
 
           <div data-aos="fade-up" className="flex flex-col gap-10 lg:grid  lg:grid-cols-2 justify-between items-center gap-x-10">
                <div>
-                  <Image src="/weather.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }} alt="foodie" />
+                  <Image src="/weather.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }}  className="transition-all duration-300 transform hover:scale-105 cursor-pointer" alt="weather-app" />
                </div>
                <div>
                   <h2 className="text-3xl text-green-700 font-extrabold">HowsTheWeather</h2>
@@ -194,7 +194,7 @@ export default function Home() {
                   <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://dashboard-sigma-nine-21.vercel.app/" target="_blank">Demo</a></button> | <button className={`${poppins.className} border border-gray-800 dark:border-slate-200 px-5 py-1 rounded-lg  hover:bg-gray-900 dark:hover:bg-slate-400 hover:text-slate-400 dark:hover:text-gray-900`}><a href="https://github.com/PrincessCS/dashboard" target="_blank">GitHub</a></button>
                </div>
                <div>
-                  <Image src="/gleek.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }} alt="gleek" />
+                  <Image src="/gleek.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }}  className="transition-all duration-300 transform hover:scale-105 cursor-pointer" alt="gleek_dashboard" />
                </div>
           </div>
 

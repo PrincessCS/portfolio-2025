@@ -28,7 +28,7 @@ export const metadata: Metadata = {
         alt: "Chidera Odo Portfolio Image",
       },
     ],
-    siteName: "Chidera Portfolio",
+    siteName: "Chidera Odo",
   },
   twitter: {
     card: "summary_large_image",

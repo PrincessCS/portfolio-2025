@@ -9,7 +9,7 @@ import AOSProvider from "./components/AOSProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://portfolio-2025-9648.vercel.app"),
+  metadataBase: new URL("https://chideraodo.vercel.app"),
   title: "Chidera Odo | Web Developer",
   description:
     "Explore the portfolio of Chidera Odo, a skilled frontend web developer. See projects, skills, and get in touch!",

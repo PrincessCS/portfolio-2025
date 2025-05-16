@@ -87,7 +87,7 @@ export default function Home() {
         and modern web development:</p>
 
      <div className="grid grid-cols-1 gap-y-10 mt-10">
-          <div data-aos="fade-up" className="flex flex-col-reverse gap-10 lg:grid lg:grid-cols-2 justify-between items-center gap-x-10">
+          {/*<div data-aos="fade-up" className="flex flex-col-reverse gap-10 lg:grid lg:grid-cols-2 justify-between items-center gap-x-10">
                <div>
                    <h2 className="text-3xl text-green-700 font-extrabold">Foodie</h2>
                    <p className="py-5">Foodie is a modern food ordering website built with React and Redux for efficient state management. 
@@ -101,7 +101,7 @@ export default function Home() {
                <div>
                    <Image src="/foodie.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }}  className="transition-all duration-300 transform hover:scale-105 cursor-pointer"  alt="foodie" />
                </div>
-          </div>
+          </div>*/}
 
           <div data-aos="fade-up" className="flex flex-col gap-10 lg:grid lg:grid-cols-2 justify-between items-center gap-x-10">
                <div>
@@ -142,23 +142,23 @@ export default function Home() {
                </div>
           </div>
 
-          {/*<div className="flex flex-col lg:grid lg:grid-cols-2 justify-between items-center gap-x-10">
+          <div className="flex flex-col gap-10 lg:grid lg:grid-cols-2 justify-between items-center gap-x-10">
                <div>
-                  <Image src="/foodie.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }} alt="foodie" />
+                  <Image src="/thoughts.jpg" width={500} height={500} style={{ width: "auto", height: "auto" }} alt="foodie" />
                </div>
                <div>
                   <h2 className="text-3xl text-green-700 font-extrabold">ThoughtsnLetters</h2>
-                  <p className="py-5">ThoughtsNLetters is a Next.js-powered journal and lifestyle blog, 
+                  <p className="py-5">ThoughtsNLetters is a Next.js and Sanity-powered lifestyle blog, 
                     designed for sharing personal reflections, experiences, and insights. 
                     Built with Tailwind CSS, it offers a clean, modern, and responsive reading experience
                   </p>
-                  <h3 className="py-5"><span className="text-green-700 font-bold">Tech Stack:</span>Next.js, Tailwind CSS, CMS</h3>
+                  <h3 className="py-5"><span className="text-green-700 font-bold">Tech Stack:</span>Next.js, Tailwind CSS, Sanity CMS</h3>
                   <h3 className="py-5"><span className="text-green-700 font-bold">Features:</span>Fast and SEO-optimized with Next.js, 
-                  Minimalist and responsive design with Tailwind CSS, Dynamic routing for individual journal entries, Smooth navigation and reading experience
+                  Minimalist and responsive design with Tailwind CSS, Dynamic routing for individual blog posts, Smooth navigation and reading experience
                   </h3> 
-                  <p><a href="https://cyborg-lovat.vercel.app/">Demo</a> | <a href="https://github.com/PrincessCS/Cyborg">GitHub</a></p> 
+                  <p><a href="https://thoughtsnletters.vercel.app/">Demo</a> | <a href="https://github.com/PrincessCS/blog">GitHub</a></p> 
                </div>
-          </div>*/}
+          </div>
 
           <div data-aos="fade-up" className="flex flex-col gap-10 lg:grid  lg:grid-cols-2 justify-between items-center gap-x-10">
                <div>
